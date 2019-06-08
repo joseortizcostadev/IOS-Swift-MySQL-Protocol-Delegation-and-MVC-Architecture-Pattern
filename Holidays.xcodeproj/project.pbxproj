@@ -12,6 +12,10 @@
 		2B53CFA422AB24CF00E9FA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B53CFA222AB24CF00E9FA29 /* Main.storyboard */; };
 		2B53CFA622AB24D000E9FA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B53CFA522AB24D000E9FA29 /* Assets.xcassets */; };
 		2B53CFA922AB24D000E9FA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B53CFA722AB24D000E9FA29 /* LaunchScreen.storyboard */; };
+		2B53CFB422AB27CA00E9FA29 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53CFB322AB27CA00E9FA29 /* Network.swift */; };
+		2B53CFB622AB27D300E9FA29 /* HolidaysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53CFB522AB27D300E9FA29 /* HolidaysModel.swift */; };
+		2B53CFB822AB292D00E9FA29 /* HolidaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53CFB722AB292D00E9FA29 /* HolidaysViewController.swift */; };
+		2B53CFBA22AB523900E9FA29 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53CFB922AB523900E9FA29 /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		2B53CFA522AB24D000E9FA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B53CFA822AB24D000E9FA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B53CFAA22AB24D000E9FA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B53CFB322AB27CA00E9FA29 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		2B53CFB522AB27D300E9FA29 /* HolidaysModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidaysModel.swift; sourceTree = "<group>"; };
+		2B53CFB722AB292D00E9FA29 /* HolidaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysViewController.swift; sourceTree = "<group>"; };
+		2B53CFB922AB523900E9FA29 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		2B53CF9D22AB24CF00E9FA29 /* Holidays */ = {
 			isa = PBXGroup;
 			children = (
+				2B53CFB222AB27A800E9FA29 /* ViewControllers */,
+				2B53CFB122AB279F00E9FA29 /* Views */,
+				2B53CFB022AB278F00E9FA29 /* Models */,
 				2B53CF9E22AB24CF00E9FA29 /* AppDelegate.swift */,
-				2B53CFA022AB24CF00E9FA29 /* ViewController.swift */,
 				2B53CFA222AB24CF00E9FA29 /* Main.storyboard */,
 				2B53CFA522AB24D000E9FA29 /* Assets.xcassets */,
 				2B53CFA722AB24D000E9FA29 /* LaunchScreen.storyboard */,
 				2B53CFAA22AB24D000E9FA29 /* Info.plist */,
 			);
 			path = Holidays;
+			sourceTree = "<group>";
+		};
+		2B53CFB022AB278F00E9FA29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B53CFB522AB27D300E9FA29 /* HolidaysModel.swift */,
+				2B53CFB322AB27CA00E9FA29 /* Network.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B53CFB122AB279F00E9FA29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B53CFB922AB523900E9FA29 /* CellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B53CFB222AB27A800E9FA29 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B53CFA022AB24CF00E9FA29 /* ViewController.swift */,
+				2B53CFB722AB292D00E9FA29 /* HolidaysViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B53CFB622AB27D300E9FA29 /* HolidaysModel.swift in Sources */,
 				2B53CFA122AB24CF00E9FA29 /* ViewController.swift in Sources */,
+				2B53CFBA22AB523900E9FA29 /* CellView.swift in Sources */,
 				2B53CF9F22AB24CF00E9FA29 /* AppDelegate.swift in Sources */,
+				2B53CFB422AB27CA00E9FA29 /* Network.swift in Sources */,
+				2B53CFB822AB292D00E9FA29 /* HolidaysViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
