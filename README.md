@@ -2,7 +2,7 @@
 
 This project was created to illustrate three main concepts in IOS developement
 
-1. Connect to a MySQL database, locally or remotely, from an IOS app with Swift 5
+1. Connecting to a MySQL database, locally or remotely, from an IOS app with Swift 5
 2. Protocol Delegation mechanism to pass data and provide effective communication between models, views and controllers  
 3. MVC architectural pattern. 
 
